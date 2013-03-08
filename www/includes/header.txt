@@ -1,0 +1,75 @@
+<!-- ImageReady Preload Script (rollovers.psd) --> 
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		rollovers_02_over = newImage("/images/rollovers_02-over.gif");
+		rollovers_03_over = newImage("/images/rollovers_03-over.gif");
+		rollovers_04_over = newImage("/images/rollovers_04-over.gif");
+		rollovers_05_over = newImage("/images/rollovers_05-over.gif");
+		rollovers_06_over = newImage("/images/rollovers_06-over.gif");
+		rollovers_07_over = newImage("/images/rollovers_07-over.gif");
+		preloadFlag = true;
+	}
+
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script --> 
+<!-- ImageReady Slices (rollovers.psd) -->
+<TABLE WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+
+  <TR>
+	<td width="5%">&nbsp;</td>
+    <TD align="center"><a href="/index.html"><IMG SRC="/images/rollovers_01.gif" WIDTH=179 HEIGHT=31 border="0"></a></TD>
+<td width="5%">&nbsp;</td>
+
+    <TD> <A HREF="/events/index.html"
+				ONMOUSEOVER="changeImages('rollovers_02', '/images/rollovers_02-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('rollovers_02', '/images/rollovers_02.gif'); return true;"> 
+      <IMG NAME="rollovers_02" SRC="/images/rollovers_02.gif" WIDTH=78 HEIGHT=31 BORDER=0 alt="events"></A></TD>
+
+  <!---   <TD> <A HREF="calendar.html"
+				ONMOUSEOVER="changeImages('rollovers_03', '/images/rollovers_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('rollovers_03', '/images/rollovers_03.gif'); return true;"> 
+      <IMG NAME="rollovers_03" SRC="/images/rollovers_03.gif" WIDTH=82 HEIGHT=31 BORDER=0></A></TD> --->
+   
+ <TD> <A HREF="/bios/index.html"
+				ONMOUSEOVER="changeImages('rollovers_04', '/images/rollovers_04-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('rollovers_04', '/images/rollovers_04.gif'); return true;"> 
+      <IMG NAME="rollovers_04" SRC="/images/rollovers_04.gif" WIDTH=72 HEIGHT=31 BORDER=0 alt="artist bios"></A></TD>
+  
+  <TD> <A HREF="/archive/index.html"
+				ONMOUSEOVER="changeImages('rollovers_05', '/images/rollovers_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('rollovers_05', '/images/rollovers_05.gif'); return true;"> 
+      <IMG NAME="rollovers_05" SRC="/images/rollovers_05.gif" WIDTH=75 HEIGHT=31 BORDER=0 alt="archive of spoken word"></A></TD>
+   
+ <TD> <A HREF="/donate.html"
+				ONMOUSEOVER="changeImages('rollovers_06', '/images/rollovers_06-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('rollovers_06', '/images/rollovers_06.gif'); return true;"> 
+      <IMG NAME="rollovers_06" SRC="/images/rollovers_06.gif" WIDTH=74 HEIGHT=31 BORDER=0 alt="donate your time or money"></A></TD>
+   
+ <TD> <A HREF="/links.html"
+				ONMOUSEOVER="changeImages('rollovers_07', '/images/rollovers_07-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('rollovers_07', '/images/rollovers_07.gif'); return true;"> 
+      <IMG NAME="rollovers_07" SRC="/images/rollovers_07.gif" WIDTH=143 HEIGHT=31 BORDER=0 alt="links - friends of SFinExile"></A></TD>
+ </TR>
+</TABLE>

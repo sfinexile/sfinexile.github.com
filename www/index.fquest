@@ -1,0 +1,58 @@
+<html><head>
+<title>http://www.sfinx.org/</title>
+<STYLE>
+<!--
+BODY { 
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11pt;
+}
+A:link { 
+	color: #8CFFFF; 
+	text-decoration: underline;
+}
+A:visited { 
+	color: #8CFFFF; 
+	text-decoration: underline; 
+}
+A:hover {
+        color:#FFFFFF;
+        text-decoration:underline 
+}
+td {
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 11pt;
+
+}
+ -->
+</STYLE>
+</head>
+
+<BODY BGCOLOR=#000000 TEXT=#8CFFFF>
+
+<div align="center"><center>
+<table border=5 width=550 bgcolor=#540CCD cellpadding=5><tr>
+<td valign=middle align=center>
+<!-- Client URL -->
+<BIG>http://www.sfinx.org/</big>
+<!-- Client Desc -->
+<p align=left><BIG>Welcome to the SF in Exile digital audio archive. SFinX documents SF's queer performers, recorded at the Jon Sims Center (www.jonsimsctr.org).  Our debut: 3/31/01, curated by Sara Moore & Kris Kovick.</big></p>
+</center>
+<table border=0 width=100% cellpadding=0 cellspacing=5><tr>
+<td align=left>Current Date: <IMG SRC="/cgi-sys/Count.cgi?display=date|dd=A|ft=0|prgb=0;255;255|PAD=N|trgb=000000" align="top"></td>
+<td align=right>Current Time EST: <IMG SRC="/cgi-sys/Count.cgi?display=clock|dd=A|ft=0|prgb=0;255;255|PAD=N|trgb=000000" align="top"></td></tr>
+<tr><td colspan=2 align=center valign=bottom><!-- Set The Counter Start Date and User Name -->
+<BR><BR>Visitors Since March 2nd, 2006 <IMG SRC="/cgi-sys/Count.cgi?df=sfinx.org_Main|dd=A|ft=0|prgb=0;255;255|PAD=N|trgb=000000" align="top"></td>
+</tr></table>
+</tr></table>
+</center></div>
+<BR><BR>
+<center>
+<big>For Help Setting Up This Domain:</big>
+<br><br><a href="http://www.aota.net/">Helpful Tutorials</a>
+<br><br><a href="http://Service.FutureQuest.net/">Service Desk</a>
+<br><br><a href="http://www.aota.net/forums/">Community Message Forums</a>
+<BR><BR>
+<big>sfinx.org is on a <a href="http://www.FutureQuest.net" title=FutureQuest>FutureQuest</a>!</big></center>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>donate</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../style.css" type="text/css">
+</HEAD>
+
+<BODY ONLOAD="preloadImages();">
+<!--#include virtual="/includes/header.txt" -->
+
+<table width="700" height="450" border="1" CELLPADDING=20 CELLSPACING=0>
+
+	<tr>
+
+	<td width="200" bgcolor="#999999" valign="top">
+      <p><font color="red">email list</font> </p>
+      <p><img src="../images/spacer.gif" width="200" height="1" border="0"></p>
+    </td>
+
+	<td width="500" bgcolor="#cccccc" valign="top"> 
+      <p>We send out emails about once a month. We do not share our email list 
+        with anyone else and it is only used for the purposes of letting folks 
+        know about our events. If you'd like to sign up fill out the form below.<a href=mailto:SFinExile_announce-subscribe@yahoogroups.com><br>
+        </a> 
+      <form action="/cgi-sys/ezmlm/SelfServ.pl" method="post">
+        <div align="center"> 
+          
+    <table border="0" width="100%" cellpadding="4" cellspacing="0">
+      <tr> 
+              <td align="left"> 
+                <input type="hidden" name="domain" value="mlm.sfinexile.org">
+                <input type="hidden" name="redirect" value="http://www.sfinexile.org/email/thankyou.html">
+                <input type="hidden" name="redirect2" value="http://www.sfinexile.org/email/goodbye.html">
+                <input type="hidden" name="list" value="announce">
+          <font size="2" face="Verdana, Arial, Helvetica, sans-serif"> <font size="1">Get 
+          email updates:</font></font></td>
+            </tr>
+            <tr> 
+              
+        <td align="center" height="34"> 
+          <input type="text" name="to_sub" value="">
+                <input type="submit" value="Send" name="submit">
+              </td>
+            </tr>
+            <tr> 
+              
+        <td align="center" nowrap> <font size="1" face="Arial, Helvetica, sans-serif">Subscribe</font> 
+          <input type="radio" name="mode" value="subscribe" checked>
+                | 
+                <input type="radio" name="mode" value="unsubscribe">
+          <font size="1" face="Arial, Helvetica, sans-serif">Unsubscribe</font></td>
+            </tr>
+          </table>
+        </div>
+      </form>
+      <div align="center"></div>
+        
+        <!--#include virtual="../includes/home.txt" -->
+    </td>
+  </tr></table>
+
+<br>
+<!--#include virtual="/includes/footer.txt" -->
+</BODY>
+
+</HTML>

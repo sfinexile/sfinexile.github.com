@@ -1,0 +1,9 @@
+.header_format { background-color: #000099; font-family: Verdana, Arial, Helvetica, 
+sans-serif; font-size: 9pt; font-weight: bold; color: #FFFFFF} 
+.text_format { 
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt} .bg_format { 
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;background-color: #E6E6FF} 
+.button { background-color:#dddddd; color: black; font-family:  Arial, Verdana, Helvetica, sans-serif; font-size: 11px;  }
+.submit { font-family:  Verdana,Arial,Helvetica, sans-serif; font-size:11px; color:black; font-weight: bold}
+a:active {  font-weight: normal; color: #0000FF; text-decoration: none}
+a:hover {  color: #CC0000; text-decoration: none}
