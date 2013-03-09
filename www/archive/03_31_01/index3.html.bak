@@ -6,7 +6,7 @@
 </HEAD>
 
 <BODY ONLOAD="preloadImages();">
-<!--#include virtual="/includes/header.txt"-->
+{% include header.txt %}
 <table border="1" cellpadding="20" cellspacing="0" width="700"
 height="450">
     <tr>
@@ -118,13 +118,13 @@ height="450">
       <blockquote>
         <p>&nbsp;</p>
         <p> 
-          <!--#include virtual="/includes/home.txt" -->
+          {% include home.txt %}
       </blockquote>
         </td>
     </tr>
 </table>
 <br>
-<!--#include virtual="/includes/footer.txt" -->
+{% include footer.txt %}
 <a name="Z"><font face="arial, helvetica, sans serif"> 
 <!-- End ImageReady Slices -->
 </font></a> 

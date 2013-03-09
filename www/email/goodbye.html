@@ -6,7 +6,7 @@
 </HEAD>
 
 <BODY ONLOAD="preloadImages();">
-<!--#include virtual="/includes/header.txt" -->
+{% include header.txt %}
 
 <table width="700" height="450" border="1" CELLPADDING=20 CELLSPACING=0>
 
@@ -27,7 +27,7 @@
       <p>&nbsp; </p>
       <div align="center"></div>
         
-        <!--#include virtual="../includes/home.txt" -->
+        {% include home.txt %}
     </td>
   </tr></table>
 
@@ -35,7 +35,7 @@
 <table width="700" border="0" cellspacing="0" cellpadding="6">
   <tr> 
     <td> 
-      <!--#include virtual="/includes/footer.txt" -->
+      {% include footer.txt %}
     </td>
   </tr>
 </table>
