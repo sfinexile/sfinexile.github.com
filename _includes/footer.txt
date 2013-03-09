@@ -6,7 +6,7 @@
       <center>
         <p>&copy;All content on this site is the sole property of SFinExile.org<br>
           Do not use without express written permission.</p>
-        <!--- p>If you can read this, you are surfing on sfinx.org's <i>NEW</i> server!</p --->
+        <!--- p>If you can read this, you are reading sfinx.org at its new home on sfinexile.github.com!</p --->
       </center>
     </td>
   </tr>
